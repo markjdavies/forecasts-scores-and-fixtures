@@ -6,8 +6,10 @@ export interface FootballMatch {
   status: MatchStatus;
   homeTeam: FootballTeam;
   awayTeam: FootballTeam;
-  homeScore: Scores;
-  awayScore: Scores;
+  homeScore?: Scores;
+  awayScore?: Scores;
+  onlineCoverageUrl?: string;
+  minutesPlayed?: number;
 }
 
 export enum MatchStatus {
