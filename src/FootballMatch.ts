@@ -16,5 +16,7 @@ export enum MatchStatus {
   Fixture = 'FIXTURE',
   FirstHalf = 'FIRSTHALF',
   SecondHalf = 'SECONDHALF',
-  Fulltime = 'FULLTIME',
+  FullTime = 'FULLTIME',
+  Postponed = 'POSTPONED',
+  Abandoned = 'ABANDONED',
 }
