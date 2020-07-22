@@ -15,6 +15,7 @@
     "eslint-config-prettier": "~6.11.0",
     "eslint-plugin-jest": "~23.13.2",
     "jest": "~26.0.1",
+    "jest-package-audit": "^3.1.1",
     "prettier": "~2.0.5",
     "release-it": "^13.6.5",
     "rimraf": "~3.0.2",
