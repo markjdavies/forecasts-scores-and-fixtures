@@ -32,7 +32,7 @@
     "test:watch": "jest --watch",
     "release": "release-it"
   },
-  "author": "Jakub Synowiec <github@jakubsynowiec.info>",
+  "author": "Mark Davies <46246921+markjdavies@users.noreply.github.com>",
   "license": "Apache-2.0",
   "dependencies": {
     "bunyan": "^1.8.14",
