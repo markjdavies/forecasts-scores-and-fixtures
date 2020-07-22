@@ -16,6 +16,7 @@
     "eslint-plugin-jest": "~23.13.2",
     "jest": "~26.0.1",
     "prettier": "~2.0.5",
+    "release-it": "^13.6.5",
     "rimraf": "~3.0.2",
     "ts-jest": "~26.1.0",
     "tsutils": "~3.17.0",
@@ -27,7 +28,8 @@
     "build:watch": "tsc -w -p tsconfig.release.json",
     "lint": "eslint . --ext .ts,.tsx",
     "test": "jest --coverage",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "release": "release-it"
   },
   "author": "Jakub Synowiec <github@jakubsynowiec.info>",
   "license": "Apache-2.0",
