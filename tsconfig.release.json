@@ -4,5 +4,5 @@
     "rootDir": ".",
     "removeComments": true
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*", "./index.ts"]
 }
