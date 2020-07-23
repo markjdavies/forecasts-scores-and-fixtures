@@ -5,6 +5,8 @@
   "engines": {
     "node": ">= 12.13 <13"
   },
+  "main": "index.js",
+  "types": "./index.d.ts",
   "devDependencies": {
     "@types/bunyan": "^1.8.6",
     "@types/jest": "~26.0.0",
@@ -25,7 +27,7 @@
   },
   "scripts": {
     "clean": "rimraf coverage build tmp",
-    "build": "tsc -p tsconfig.release.json",
+    "build": "tsc -d -p tsconfig.release.json",
     "build:watch": "tsc -w -p tsconfig.release.json",
     "lint": "eslint . --ext .ts,.tsx",
     "test": "jest --coverage",
