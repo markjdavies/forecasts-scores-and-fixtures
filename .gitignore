@@ -13,6 +13,9 @@ coverage
 *.js
 *.js.map
 
+# Exclude all definition files..
+*.d.ts
+
 # VS Code
 .vscode
 !.vscode/tasks.js
