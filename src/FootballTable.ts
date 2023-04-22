@@ -9,8 +9,7 @@ export interface FooballTableRow {
   movement: 'U' | 'D' | '';
   teamName: string;
   played: number;
-  won;
-  number;
+  won: number;
   drawn: number;
   lost: number;
   for: number;
