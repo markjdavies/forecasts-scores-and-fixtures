@@ -1,6 +1,6 @@
 {
   "name": "forecasts-scores-and-fixtures",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Types for Lard's Forecasts scores and fixtures.",
   "engines": {
     "node": ">= 14 <=18"
