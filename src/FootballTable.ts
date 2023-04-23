@@ -6,6 +6,7 @@ export interface FootballTable {
 }
 
 export interface FooballTableRow {
+  position: number;
   movement: 'U' | 'D' | '';
   teamName: string;
   played: number;
