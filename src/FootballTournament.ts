@@ -1,7 +1,6 @@
-export enum FootballTournament {
-  PremierLeague = 'premier-league',
-  Championship = 'championship',
-  LeagueOne = 'league-one',
-  LeagueTwo = 'league-two',
-  FaCup = 'fa-cup',
-}
+export type FootballTournament =
+  | 'premier-league'
+  | 'championship'
+  | 'league-one'
+  | 'league-two'
+  | 'fa-cup';
