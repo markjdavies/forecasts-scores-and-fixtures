@@ -3,4 +3,5 @@ export type FootballTournament =
   | 'championship'
   | 'league-one'
   | 'league-two'
-  | 'fa-cup';
+  | 'fa-cup'
+  | 'french-ligue-one';
